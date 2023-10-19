@@ -1,0 +1,14 @@
+#include<stdio.h>
+void main()
+{
+    float x,y;
+    printf("enter the value of x and y");
+    scanf("%f%f",&x,&y);
+    printf("area of a circle is:%.2f\n",3.14*x*x);
+    printf("perimeter of a circle is:%.2f\n",2*3.14*x);
+    printf("area of a square is: %.2f\n",x*x);
+    printf("perimeter of a square is:%.2f\n",4*x);
+    printf("area of a rectangle is:%.2f\n",x*y);
+    printf("perimeter of a rectangle is:%.2f\n",2*(x+y));
+
+}
